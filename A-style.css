@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    background: #f9f9f9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0,0,0,0,1);
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+.container .top
+{
+position: relative;
+display: grid;
+grid-template-columns:1fr 2fr;
+padding: 40px;
+padding-bottom: 0;
+}
+.container .top .imgBX
+{
+    position: relative;
+    width: 100%;
+    display:block;
+    align-items: center;
+}
+.container .top .imgBX .box
+{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+} 
+.container .top .imgBX .box img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.container .top .profile
+{
+    position: relative;
+    padding-top: 70px;
+    display: block;
+    align-items: center;
+}
+.container .top .profile h3
+{
+    font-size: 2em;
+    font-weight: 600;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:cornflowerblue;
+}
+.container .top .profile h3 span
+{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    font-family:Verdana;
+    top: -5px;
+}
+.container .contentBox
+{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+
+.container .contentBox h3
+{
+    border-left: 2px solid dimgrey;
+    padding-left:10px;
+    font-weight: 600;
+    color:cornflowerblue ;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .contentBox ul
+{
+position: relative;
+margin:  10px 0;
+}
+.container .contentBox ul li
+{
+ list-style: none;
+ margin: 25px 0;
+  color:deeppink;
+  font-size: 0.9em;
+  font-weight: 600;
+
+ display: block;
+}
+.container .contentBox ul li ion-icon
+{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: dimgrey;
+}
+h5
+{
+    color:dimgrey;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+.lan li{
+flex-direction: column;
+}
+.lan li span{
+    color:deeppink ;
+    font-size: 16px;
+    font-weight:600;
+}
+.lan .precent
+{
+    position: relative;
+    width: 100%;
+    background: darkgray;;
+    height: 6px;
+    margin-top: 15px;
+    display: block;
+    overflow: hidden;
+}
+.lan .precent div
+{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background: wheat;
+
+}
+.right
+{
+    padding-left: 50px;
+}
+p{
+    color: deeppink;
+    font-size: 0.9em;
+    font-weight: 600;
+
+}
+.project .box
+{
+   display:block;
+   flex-direction: column;
+   margin: 25px 0;
+}
+.project .box .year
+{
+    min-width: 100px;
+    margin-bottom: 5px;
+}
+.skills li{
+    flex-direction: column;
+    }
+    .skills li span{
+        color:deeppink ;
+        font-size: 16px;
+        font-weight:600;
+    }
+    .skills .precent
+    {
+        position: relative;
+        width: 100%;
+        background: darkgray;;
+        height: 6px;
+        margin-top: 15px;
+        display: block;
+        overflow: hidden;
+    }
+    .skills .precent div
+    {
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        background: wheat;
+    
+    }
+    a{
+        color:wheat;
+    }
+    
+
